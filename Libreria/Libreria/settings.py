@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ('SECRET_KEY')
+SECRET_KEY = '-di687m2gm7)sbq=j)taa)(6b=x2_==2@ov23c3zez(fghcap3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'cuentas',
     'Comics',
+    'Libros',
     'rest_framework.authtoken',
     'corsheaders',
 ]

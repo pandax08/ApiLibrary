@@ -112,7 +112,7 @@ class ListTags(ListAPIView):
 
 class UpdateComic(APIView):
     def put(self,request):
-        print(request.data)
+        
         id_comic=request.data['id_comic']
 
         comic=Comics.objects.get(id=id_comic)
